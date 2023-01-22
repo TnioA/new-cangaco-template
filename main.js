@@ -1,6 +1,6 @@
 console.log("Starting coding Cangaço Store");
 window.onclick= function(target) {
-  if(target.target.matches("span"))
+  if(target.target.matches("span") || target.target.matches("i"))
     return;
 
     CloseColapses();
@@ -44,11 +44,11 @@ function CloseColapses() {
 // cart
 const btnCart = document.getElementsByClassName("btn-cart")[0];
 const btnCloseCart = document.getElementsByClassName("btn-close-cart")[0];
-const cartBlockToutch = document.getElementsByClassName("cart-block-toutch")[0];
+const cartBlockToutch = document.getElementsByClassName("block-toutch")[0];
 
 function togleCart() {
   const cart = document.getElementsByClassName("cart")[0];
-  const cartBlockToutch = document.getElementsByClassName("cart-block-toutch")[0];
+  const cartBlockToutch = document.getElementsByClassName("block-toutch")[0];
   cart.classList.toggle("active");
   cartBlockToutch.classList.toggle("active");
 
