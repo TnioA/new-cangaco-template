@@ -1,10 +1,10 @@
 console.log("Starting coding Cangaço Store");
-window.onclick= function(target) {
-  if(target.target.matches("span") || target.target.matches("i"))
-    return;
+// window.onclick= function(target) {
+//   if(target.target.matches("span") || target.target.matches("i"))
+//     return;
 
-    CloseColapses();
-};
+//     CloseColapses();
+// };
 
 // menu
 const btnMobile = document.getElementsByClassName("btn-mobile")[0];
@@ -16,30 +16,30 @@ function toggleMenu() {
 
 btnMobile.addEventListener("click", toggleMenu);
 
-// colapse
-var btnCategory = document.getElementsByClassName("btn-colapse")[0];
-var btnBrand = document.getElementsByClassName("btn-colapse")[1];
-var btnPersonMobile = document.getElementsByClassName("btn-colapse")[2];
-// var btnPerson = document.getElementsByClassName("btn-colapse")[3];
+// // colapse
+// var btnCategory = document.getElementsByClassName("btn-colapse")[0];
+// var btnBrand = document.getElementsByClassName("btn-colapse")[1];
+// var btnPersonMobile = document.getElementsByClassName("btn-colapse")[2];
+// // var btnPerson = document.getElementsByClassName("btn-colapse")[3];
 
-function togleMenuBtn(event) {
-  const colapseTarget = document.getElementById(`colapse-${event}`);
+// function togleMenuBtn(event) {
+//   const colapseTarget = document.getElementById(`colapse-${event}`);
 
-  if(colapseTarget.classList.contains("active")) {
-    colapseTarget.classList.toggle("active");
-    return;
-  }
+//   if(colapseTarget.classList.contains("active")) {
+//     colapseTarget.classList.toggle("active");
+//     return;
+//   }
 
-  CloseColapses();
-  colapseTarget.classList.toggle("active");
-}
+//   CloseColapses();
+//   colapseTarget.classList.toggle("active");
+// }
 
-function CloseColapses() {
-  var colapses = document.getElementsByClassName("colapse");
-  Array.prototype.forEach.call(colapses, (item) => {
-    item.classList.remove("active");
-  });
-}
+// function CloseColapses() {
+//   var colapses = document.getElementsByClassName("colapse");
+//   Array.prototype.forEach.call(colapses, (item) => {
+//     item.classList.remove("active");
+//   });
+// }
 
 // cart
 const btnCart = document.getElementsByClassName("btn-cart")[0];
