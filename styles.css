@@ -378,8 +378,15 @@ header .buttons {
 
 /********* BANNER *********/
 
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
 .banner img {
-    width: 100%;
+    width: 250%;
     /* height: 200px; */
 }
 
