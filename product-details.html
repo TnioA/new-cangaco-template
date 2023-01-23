@@ -31,36 +31,42 @@
                             <span>Início</span>
                         </a>
                     </li>
-                    <li>
-                        <div class="dropdown">
-                            <div class="dropdown-btn text-icon">
-                                <span>Categorias</span>
-                                <i class="material-icons-outlined">expand_more</i>
-                            </div>
-                            <div class="dropdown-options">
-                                <a href="/">
-                                    <span>Categoria 1</span>
-                                </a>
-                                <a href="/">
-                                    <span>Categoria 2</span>
-                                </a>
-                            </div>
+                    <li class="dropdown" onclick="showDropdown(this)">
+                        <div class="dropdown-btn text-icon">
+                            <span>Categorias</span>
+                            <i class="dropdown-icon material-icons-outlined">expand_more</i>
                         </div>
+                        <div class="dropdown-options">
+                            <a href="/">
+                                <span>Categoria 1</span>
+                            </a>
+                            <a href="/">
+                                <span>Categoria 2</span>
+                            </a>
+                            <a href="/">
+                                <span>Categoria 3</span>
+                            </a>
+                            <a href="/">
+                                <span>Categoria 4</span>
+                            </a>
+                            <a href="/">
+                                <span>Categoria 5</span>
+                            </a>
+                        </div>
+                     
                     </li>
-                    <li>
-                        <div class="dropdown">
-                            <div class="dropdown-btn text-icon">
-                                <span>Marcas</span>
-                                <i class="material-icons-outlined">expand_more</i>
-                            </div>
-                            <div class="dropdown-options">
-                                <a href="/">
-                                    <span>Marca 1</span>
-                                </a>
-                                <a href="/">
-                                    <span>Marca 2</span>
-                                </a>
-                            </div>
+                    <li class="dropdown" onclick="showDropdown(this)">
+                        <div class="dropdown-btn text-icon">
+                            <span>Marcas</span>
+                            <i class="dropdown-icon material-icons-outlined">expand_more</i>
+                        </div>
+                        <div class="dropdown-options">
+                            <a href="/">
+                                <span>Marca 1</span>
+                            </a>
+                            <a href="/">
+                                <span>Marca 2</span>
+                            </a>
                         </div>
                     </li>
                     <li>
@@ -68,27 +74,27 @@
                             <span>Sobre</span>
                         </a>
                     </li>
-                    <li>
-                        <div class="dropdown btn-user-mobile">
-                            <div class="dropdown-btn text-icon">
+                    <li class="dropdown btn-user-mobile" onclick="showDropdown(this)">
+                        <div class="dropdown-btn text-icon">
+                            <div class="text-icon">
                                 <i class="material-icons-outlined">person</i> 
                                 <span>Olá Hortanio</span>
-                                <i class="material-icons-outlined">expand_more</i> 
-                            </div> 
-                            <div class="dropdown-options">
-                                <a href="/">
-                                    <div class="text-icon">
-                                        <i class="material-icons-outlined">inventory_2</i>
-                                        <span>Meus pedidos</span>
-                                    </div>
-                                </a>
-                                <a href="/">
-                                    <div class="text-icon">
-                                        <i class="material-icons-outlined">logout</i>
-                                        <span>Sair</span>
-                                    </div>
-                                </a>
                             </div>
+                            <i class="dropdown-icon dropdown-icon material-icons-outlined">expand_more</i> 
+                        </div> 
+                        <div class="dropdown-options">
+                            <a href="/">
+                                <div class="text-icon">
+                                    <i class="material-icons-outlined">inventory_2</i>
+                                    <span>Meus pedidos</span>
+                                </div>
+                            </a>
+                            <a href="/">
+                                <div class="text-icon">
+                                    <i class="material-icons-outlined">logout</i>
+                                    <span>Sair</span>
+                                </div>
+                            </a>
                         </div>
                     </li>
                     <li>
@@ -139,9 +145,9 @@
                     </div>
                 </button> -->
                 <button class="dropdown btn btn-user">
-                    <div class="text-icon">
+                    <div class="dropdown-btn text-icon">
                         <i class="material-icons-outlined">person</i>
-                        <i class="material-icons-outlined">expand_more</i>
+                        <i class="dropdown-icon material-icons-outlined">expand_more</i>
                     </div> 
                     <div class="dropdown-options" style="right: 50px;">
                         <a href="/" style="display:block;padding:0.5rem;">

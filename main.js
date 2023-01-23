@@ -1,10 +1,4 @@
 console.log("Starting coding Cangaço Store");
-// window.onclick= function(target) {
-//   if(target.target.matches("span") || target.target.matches("i"))
-//     return;
-
-//     CloseColapses();
-// };
 
 // menu
 const btnMobile = document.getElementsByClassName("btn-mobile")[0];
@@ -16,30 +10,15 @@ function toggleMenu() {
 
 btnMobile.addEventListener("click", toggleMenu);
 
-// // colapse
-// var btnCategory = document.getElementsByClassName("btn-colapse")[0];
-// var btnBrand = document.getElementsByClassName("btn-colapse")[1];
-// var btnPersonMobile = document.getElementsByClassName("btn-colapse")[2];
-// // var btnPerson = document.getElementsByClassName("btn-colapse")[3];
 
-// function togleMenuBtn(event) {
-//   const colapseTarget = document.getElementById(`colapse-${event}`);
+const btnDropdowns = document.querySelectorAll(".dropdown");
+function showDropdown(target) {
+  btnDropdowns.forEach(x=> {
+    x.classList.remove("show");
+  });
 
-//   if(colapseTarget.classList.contains("active")) {
-//     colapseTarget.classList.toggle("active");
-//     return;
-//   }
-
-//   CloseColapses();
-//   colapseTarget.classList.toggle("active");
-// }
-
-// function CloseColapses() {
-//   var colapses = document.getElementsByClassName("colapse");
-//   Array.prototype.forEach.call(colapses, (item) => {
-//     item.classList.remove("active");
-//   });
-// }
+  target.classList.add("show");
+}
 
 // cart
 const btnCart = document.getElementsByClassName("btn-cart")[0];
