@@ -419,6 +419,10 @@ header .buttons {
     padding: 0 10px 0 0;
 }
 
+.cart-input .input-box .cart-input {
+    height: 15px;
+}
+
 .cart-footer-title {
     font-weight: bold;
 }

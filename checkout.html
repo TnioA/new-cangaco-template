@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
     <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous"> -->
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="checkout-styles.css">
 </head>
 
 <body>
@@ -97,7 +98,7 @@
                         </div>
                     </li>
                     <li>
-                        <a href="/login.html" class="text-icon btn-user-mobile">
+                        <a href="/" class="text-icon btn-user-mobile">
                             <i class="material-icons-outlined">person</i> 
                             <span>Entrar | Cadastrar</span>
                         </a>
@@ -118,6 +119,7 @@
                         <i class="material-icons-outlined">search</i>
                     </a>
                 </div>        
+                
                 
                 <!-- este bloco será utilizado se o usuário estiver logado -->
 
@@ -148,7 +150,7 @@
                         <i class="dropdown-icon material-icons-outlined">expand_more</i>
                     </div> 
                     <div class="dropdown-options" style="right: 50px;">
-                        <a href="/login.html" style="display:block;padding:0.5rem;">
+                        <a href="/" style="display:block;padding:0.5rem;">
                             <div class="text-icon">
                                 <i class="material-icons-outlined">logout</i>
                                 <span>Entrar | Cadastrar</span>
@@ -350,92 +352,51 @@
         </div>
     </section>
 
-    <!-- banner -->
-    <section class="banner">
-        <img src="assets/images/banner.jpg" alt="">
-    </section>
+    <section class="checkout-container">
+        <div class="checkout-column">
+            <div class="checkout-title">
+                <h3>Checkout</h3>
+                <div class="steps">
 
-    <!-- product list -->
-    <section class="products">
-        <div class="product-item">
-            <a class="product-link" href="/product-details.html">
-                <img src="assets/images/camisa-masculina-preta.webp" alt="">
-                <div class="product-info">
-                    <span class="info-title">Camisa Basica Preta</span>
-                    <span class="info-price">R$ 99,90</span>
-                    <span class="info-condition">ou 6x R$ 8,32 sem juros</span>
                 </div>
-            </a>
+            </div>
+            <div class="checkout-fields">
+                <div class="checkout-input">
+                    <span>Senha</span>
+                    <div class="input-box">
+                        <input class="input-field light" type="text" placeholder="O que está procurando?">
+                        <a class="input-button light">
+                            <i class="material-icons-outlined">visibility_off</i>
+                            <!-- <i class="material-icons-outlined">visibility_on</i> -->
+                        </a>
+                    </div>
+                </div>
+                <div class="checkout-input">
+                    <span>Senha</span>
+                    <div class="input-box">
+                        <input class="input-field light" type="text" placeholder="O que está procurando?">
+                        <a class="input-button light">
+                            <i class="material-icons-outlined">visibility_off</i>
+                            <!-- <i class="material-icons-outlined">visibility_on</i> -->
+                        </a>
+                    </div>
+                </div>
+                <div class="checkout-input">
+                    <span>Senha</span>
+                    <div class="input-box">
+                        <input class="input-field light" type="text" placeholder="O que está procurando?">
+                        <a class="input-button light">
+                            <i class="material-icons-outlined">visibility_off</i>
+                            <!-- <i class="material-icons-outlined">visibility_on</i> -->
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="product-item">
-            <a class="product-link" href="/product-details.html">
-                <img src="assets/images/camisa-masculina-preta.webp" alt="">
-                <div class="product-info">
-                    <span class="info-title">Camisa Basica Preta</span>
-                    <span class="info-price">R$ 99,90</span>
-                    <span class="info-condition">ou 6x R$ 8,32 sem juros</span>
-                </div>
-            </a>
-        </div>
-        <div class="product-item">
-            <a class="product-link" href="/product-details.html">
-                <img src="assets/images/camisa-masculina-preta.webp" alt="">
-                <div class="product-info">
-                    <span class="info-title">Camisa Basica Preta</span>
-                    <span class="info-price">R$ 99,90</span>
-                    <span class="info-condition">ou 6x R$ 8,32 sem juros</span>
-                </div>
-            </a>
-        </div>
-        <div class="product-item">
-            <a class="product-link" href="/product-details.html">
-                <img src="assets/images/camisa-masculina-preta.webp" alt="">
-                <div class="product-info">
-                    <span class="info-title">Camisa Basica Preta</span>
-                    <span class="info-price">R$ 99,90</span>
-                    <span class="info-condition">ou 6x R$ 8,32 sem juros</span>
-                </div>
-            </a>
-        </div>
-        <div class="product-item">
-            <a class="product-link" href="/product-details.html">
-                <img src="assets/images/camisa-masculina-preta.webp" alt="">
-                <div class="product-info">
-                    <span class="info-title">Camisa Basica Preta</span>
-                    <span class="info-price">R$ 99,90</span>
-                    <span class="info-condition">ou 6x R$ 8,32 sem juros</span>
-                </div>
-            </a>
-        </div>
-        <div class="product-item">
-            <a class="product-link" href="/product-details.html">
-                <img src="assets/images/camisa-masculina-preta.webp" alt="">
-                <div class="product-info">
-                    <span class="info-title">Camisa Basica Preta</span>
-                    <span class="info-price">R$ 99,90</span>
-                    <span class="info-condition">ou 6x R$ 8,32 sem juros</span>
-                </div>
-            </a>
-        </div>
-        <div class="product-item">
-            <a class="product-link" href="/product-details.html">
-                <img src="assets/images/camisa-masculina-preta.webp" alt="">
-                <div class="product-info">
-                    <span class="info-title">Camisa Basica Preta</span>
-                    <span class="info-price">R$ 99,90</span>
-                    <span class="info-condition">ou 6x R$ 8,32 sem juros</span>
-                </div>
-            </a>
-        </div>
-        <div class="product-item">
-            <a class="product-link" href="/product-details.html">
-                <img src="assets/images/camisa-masculina-preta.webp" alt="">
-                <div class="product-info">
-                    <span class="info-title">Camisa Basica Preta</span>
-                    <span class="info-price">R$ 99,90</span>
-                    <span class="info-condition">ou 6x R$ 8,32 sem juros</span>
-                </div>
-            </a>
+        <div class="checkout-column">
+            <div class="checkout-fields">
+                informações
+            </div>
         </div>
     </section>
 
@@ -558,7 +519,7 @@
                 <h4>Newsletter</h4>
                 <p>Inscreva-se para receber novidades e promoções</p>
                 <div class="input-box">
-                    <input class="input-field" type="text"placeholder="Digite seu e-mail">
+                    <input class="input-field" type="text" placeholder="Digite seu e-mail">
                     <a class="input-button">
                         <i class="material-icons-outlined">send</i>
                     </a>

@@ -1,0 +1,25 @@
+.checkout-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 30px 20px;
+}        
+
+.checkout-column {
+    width: 50%;
+    display: block;
+}
+
+.checkout-title {
+    display: block;
+}
+
+.checkout-fields {
+    display: block;
+}
+
+@media (max-width: 1100px) {
+    .checkout-column {
+        width: 100%;
+    }
+}
