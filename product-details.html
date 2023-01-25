@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
     <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous"> -->
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="styles2.css">
+    <link rel="stylesheet" href="product-details-styles.css">
 </head>
 
 <body>
@@ -159,6 +159,7 @@
                     </div>
                 </button>
                 <button class="btn btn-cart">
+                    <span class="badge-cart-items">5</span>
                     <i class="material-icons-outlined">shopping_cart</i>
                 </button>
             </div>        
@@ -171,10 +172,184 @@
                 </a>
             </div>  
         </div>  
-        <div class="cart">
-            <button class="btn-close-cart">close</button>
+        <div class="block-toutch"></div>
+    </section>
+
+    <!-- cart -->
+    <section class="cart">
+        <div class="cart-header">
+            <div class="text-icon">
+                <i class="material-icons-outlined">shopping_cart</i>
+                <span>Meu carrinho (5)</span>
+            </div>
+            <button class="btn btn-close-cart">
+                <i class="material-icons-outlined">close</i>
+            </button>
         </div>
-        <div class="block-toutch"></div>      
+        <div class="cart-content">
+            <!-- Este bloco será utilizado caso o carrinho esteja vazio -->
+
+            <!-- <div class="empty-cart">
+                <div class="empty-cart-info">
+                    <span>Parece que seu carrinho está vazio...</span>
+                    <i class="material-icons-outlined">shopping_cart</i>
+                    <span>Procurando sugestões?</span>
+                    <span>Que tal...</span>
+                    <button class="btn btn-see-more">Ver mais vendidos</button>
+                </div>
+            </div> -->
+            <div class="cart-item-list">
+                <div class="cart-item">
+                    <img src="assets/images/camisa-masculina-preta.webp" alt="">
+                    <div class="cart-item-info">
+                        <span class="cart-item-info-top">
+                            Camisa Basica Preta 
+                            <i class="material-icons-outlined">close</i>
+                        </span>
+                        <span>Cor: Preta</span>
+                        <span>Tamanho: M</span>
+                        <span>Categoria: Camisas</span>
+                        <span>Marca: Cangaço</span>
+                        <span class="cart-item-info-bottom">
+                            <div class="cart-item-upgrade">
+                                <span>-</span>
+                                <span>1</span>
+                                <span>+</span>
+                            </div>
+                            R$ 250,00
+                        </span>
+                    </div>
+                </div>
+                <div class="cart-item">
+                    <img src="assets/images/camisa-masculina-preta.webp" alt="">
+                    <div class="cart-item-info">
+                        <span class="cart-item-info-top">
+                            Camisa Basica Preta 
+                            <i class="material-icons-outlined">close</i>
+                        </span>
+                        <span>Cor: Preta</span>
+                        <span>Tamanho: M</span>
+                        <span>Categoria: Camisas</span>
+                        <span>Marca: Cangaço</span>
+                        <span class="cart-item-info-bottom">
+                            <div class="cart-item-upgrade">
+                                <span>-</span>
+                                <span>1</span>
+                                <span>+</span>
+                            </div>
+                            R$ 250,00
+                        </span>
+                    </div>
+                </div>
+                <div class="cart-item">
+                    <img src="assets/images/camisa-masculina-preta.webp" alt="">
+                    <div class="cart-item-info">
+                        <span class="cart-item-info-top">
+                            Camisa Basica Preta 
+                            <i class="material-icons-outlined">close</i>
+                        </span>
+                        <span>Cor: Preta</span>
+                        <span>Tamanho: M</span>
+                        <span>Categoria: Camisas</span>
+                        <span>Marca: Cangaço</span>
+                        <span class="cart-item-info-bottom">
+                            <div class="cart-item-upgrade">
+                                <span>-</span>
+                                <span>1</span>
+                                <span>+</span>
+                            </div>
+                            R$ 250,00
+                        </span>
+                    </div>
+                </div>
+                <div class="cart-item">
+                    <img src="assets/images/camisa-masculina-preta.webp" alt="">
+                    <div class="cart-item-info">
+                        <span class="cart-item-info-top">
+                            Camisa Basica Preta 
+                            <i class="material-icons-outlined">close</i>
+                        </span>
+                        <span>Cor: Preta</span>
+                        <span>Tamanho: M</span>
+                        <span>Categoria: Camisas</span>
+                        <span>Marca: Cangaço</span>
+                        <span class="cart-item-info-bottom">
+                            <div class="cart-item-upgrade">
+                                <span>-</span>
+                                <span>1</span>
+                                <span>+</span>
+                            </div>
+                            R$ 250,00
+                        </span>
+                    </div>
+                </div>
+                <div class="cart-item">
+                    <img src="assets/images/camisa-masculina-preta.webp" alt="">
+                    <div class="cart-item-info">
+                        <span class="cart-item-info-top">
+                            Camisa Basica Preta 
+                            <i class="material-icons-outlined">close</i>
+                        </span>
+                        <span>Cor: Preta</span>
+                        <span>Tamanho: M</span>
+                        <span>Categoria: Camisas</span>
+                        <span>Marca: Cangaço</span>
+                        <span class="cart-item-info-bottom">
+                            <div class="cart-item-upgrade">
+                                <span>-</span>
+                                <span>1</span>
+                                <span>+</span>
+                            </div>
+                            R$ 250,00
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="cart-footer">
+                <div class="cart-footer-inputs">
+                    <div class="cart-input">
+                        <span>Cupom de desconto: </span>
+                        <div class="input-box">
+                            <input class="input-field light" type="text" name="" id="" placeholder="Cupom">
+                            <a class="input-button light" href="/">
+                                <i class="material-icons-outlined">send</i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="cart-input">
+                        <span>Calcule seu frete: </span>
+                        <div class="input-box">
+                            <input class="input-field light" type="text" name="" id="" placeholder="CEP">
+                            <a class="input-button light" href="/">
+                                <i class="material-icons-outlined">send</i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="cart-footer-title">
+                    <span class="footer-title">Resumo da compra</span>
+                </div>
+                <div class="cart-footer-content">
+                    <div class="cart-footer-content-line">
+                        <span>Subtotal:</span>
+                        <span>R$ 250,00</span>
+                    </div>
+                    <div class="cart-footer-content-line">
+                        <span>Frete</span>
+                        <span>R$ 0,00</span>
+                    </div>
+                    <div class="cart-footer-content-line">
+                        <span>Desconto</span>
+                        <span>- R$ 0,00</span>
+                    </div>
+                    <div class="cart-footer-content-line cart-total">
+                        <span>Total</span>
+                        <span>R$ 250,00</span>
+                    </div>
+                </div>
+                <button class="btn btn-finalize">Finalizar compra</button>
+            </div>
+        </div>
     </section>
 
     <section class="product-details">
@@ -217,14 +392,84 @@
                 <button class="btn btn-send-cart">Adicionar no carrinho</button>
             </div>
         </div>
-        <div class="product-details-column">
+        <div class="product-details-column colapses">
             <div class="product-details-header">
-                <div class="">
-
+                <!-- <div class="absolute-line">
+                    <hr>
+                </div> -->
+                <div class="colapse-handler active" name="details" onclick="handleColapse(this)">
+                    Detalhes
+                    <hr>
+                </div>
+                <div class="colapse-handler" name="description" onclick="handleColapse(this)">
+                    Descrição
+                    <hr>
+                </div>
+                <div class="colapse-handler" name="reviews" onclick="handleColapse(this)">
+                    Avaliação
+                    <hr>
                 </div>
             </div>
-            detalhes
-
+            <div class="product-details-content">
+                <div class="colapse-content active" name="details">
+                    <div class="colapse-text">
+                        Detalhes Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, magni culpa earum ea ut libero quidem incidunt ad, corrupti repellat dolorum? Aliquam quasi non voluptatibus, iusto et earum placeat eius.
+                    </div>
+                </div>
+                <div class="colapse-content" name="description">
+                    <div class="colapse-text">
+                        Descrição Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, magni culpa earum ea ut libero quidem incidunt ad, corrupti repellat dolorum? Aliquam quasi non voluptatibus, iusto et earum placeat eius.
+                    </div>
+                </div>
+                <div class="colapse-content" name="reviews">
+                    <div class="review-title text-icon">
+                        <span>5.0</span>
+                        <i class="material-icons-outlined">star</i>
+                        <i class="material-icons-outlined">star</i>
+                        <i class="material-icons-outlined">star</i>
+                        <i class="material-icons-outlined">star</i>
+                        <i class="material-icons-outlined">star</i>
+                    </div>
+                    <div class="review-items">
+                        <div class="review-item">
+                            <div class="rate">
+                                <span class="text-icon">
+                                    Juremildo
+                                    <i class="material-icons-outlined">star</i>
+                                    <i class="material-icons-outlined">star</i>
+                                    <i class="material-icons-outlined">star</i>
+                                    <i class="material-icons-outlined">star</i>
+                                    <i class="material-icons-outlined">star</i>
+                                </span>
+                                <span class="rate-date">
+                                    01/01/2023
+                                </span>
+                            </div>
+                            <div class="comment">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae recusandae aperiam, eius esse, eligendi distinctio ex mollitia reiciendis, eos at sequi tempora doloremque. Inventore dolorem ipsum consectetur fuga iure quis.
+                            </div>
+                        </div>
+                        <div class="review-item">
+                            <div class="rate">
+                                <span class="text-icon">
+                                    Juremildo
+                                    <i class="material-icons-outlined">star</i>
+                                    <i class="material-icons-outlined">star</i>
+                                    <i class="material-icons-outlined">star</i>
+                                    <i class="material-icons-outlined">star</i>
+                                    <i class="material-icons-outlined">star</i>
+                                </span>
+                                <span class="rate-date">
+                                    01/01/2023
+                                </span>
+                            </div>
+                            <div class="comment">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae recusandae aperiam, eius esse, eligendi distinctio ex mollitia reiciendis, eos at sequi tempora doloremque. Inventore dolorem ipsum consectetur fuga iure quis.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -405,6 +650,11 @@
         </div>
         <div class="footer-copyright">
             <span>&copy; Janeiro <script>document.write(new Date().getFullYear());</script> Cangaço Store | Todos os direitos reservados.</span>
+        </div>
+        <div class="btn btn-to-top">
+            <button onclick="topFunction()">
+                <i class="material-icons-outlined">expand_less</i>
+            </button>
         </div>
     </section>
     <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script> -->
